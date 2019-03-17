@@ -1,7 +1,9 @@
 {
   "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   },
   "name": "my_webpack",
   "version": "1.0.0",
@@ -661,7 +663,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "author": "彭程明",
   "license": "ISC"
